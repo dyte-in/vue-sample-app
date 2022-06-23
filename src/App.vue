@@ -1,0 +1,101 @@
+<template>
+  <img alt="Vue logo" src="./assets/logo.svg">
+  <h1>Vue Sample app</h1>
+  <router-view></router-view>
+</template>
+
+<style>
+html, body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+
+h3 {
+  margin: 40px 0 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.meeting {
+  height: 100vh;
+  width: 100vw;
+}
+.create-meeting {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:10px;
+  align-items: center;
+}
+
+.form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input {
+  padding: 15px 20px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  margin-top: 20px;
+  width: 200px;
+  background: rgb(64, 64, 64);
+  color: white;
+}
+
+.form button {
+  padding: 15px 20px;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  background: rgb(61, 74, 246);
+  margin-top: 20px;
+  color: white;
+  width: 240px;
+  cursor: po;
+}
+</style>
